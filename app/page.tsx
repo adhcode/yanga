@@ -1,6 +1,6 @@
 "use client"
 
-import { CardComponent } from "./component/CardDemo/page"
+import CardDemo from "./component/CardDemo/page";
 import Image from "next/image"
 import { motion } from "framer-motion";
 import { Separator } from "@/components/ui/separator"
@@ -23,7 +23,7 @@ function page() {
         }}>
     <div className=" min-h-screen pt-10">
       <div className="flex flex-col items-center ">
-      <CardComponent/>
+      <CardDemo/>
       <div className="bg-[#C8C8D2] rounded-lg mt-4">
         <div className="flex justify-center items-center h-[50px] w-full ">
       <Image
